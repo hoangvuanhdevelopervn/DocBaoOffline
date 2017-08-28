@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/dialogImage"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/standard_margin_10"
+        android:background="@mipmap/ic_doc_bao_offline" />
+
+    <hoangvuanhdeveloper.wordpress.com.rssofflinemoneylover.CustomView.TextViewPlus
+        android:id="@+id/dialogShareYourWisdom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/standard_margin_10"
+        android:text="@string/app_name"
+        android:textColor="@color/grey_800"
+        android:textSize="@dimen/standard_margin_20"
+        android:textStyle="normal"
+        app:customFont="fonts/Roboto-Regular.ttf"
+        tools:ignore="SpUsage" />
+
+
+    <TextView
+        android:id="@+id/dialogLine1"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="@dimen/standard_margin_10"
+        android:background="@color/grey_300" />
+
+    <hoangvuanhdeveloper.wordpress.com.rssofflinemoneylover.CustomView.TextViewPlus
+
+        android:id="@+id/dialogThankYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin_10"
+        android:layout_marginLeft="@dimen/standard_margin_10"
+        android:layout_marginRight="@dimen/standard_margin_10"
+        android:text="@string/thank_you_for_downloading_my_quotes"
+        android:textColor="@color/grey_900"
+        android:textSize="@dimen/standard_margin_20"
+        app:customFont="fonts/Roboto-Regular.ttf"
+        tools:ignore="SpUsage" />
+
+
+    <hoangvuanhdeveloper.wordpress.com.rssofflinemoneylover.CustomView.TextViewPlus
+
+        android:id="@+id/dialogContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/standard_margin_10"
+        android:layout_marginTop="@dimen/standard_margin_10"
+        android:text="@string/app_intro"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_18"
+        app:customFont="fonts/Roboto-Light.ttf"
+        tools:ignore="SpUsage" />
+
+    <hoangvuanhdeveloper.wordpress.com.rssofflinemoneylover.CustomView.TextViewPlus
+
+
+        android:id="@+id/tvDeveloped"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin_10"
+        android:textColor="@color/black"
+        android:layout_marginLeft="@dimen/standard_margin_10"
+        android:textSize="@dimen/font_size_16"
+        app:customFont="fonts/Roboto-Bold.ttf"
+        tools:ignore="RtlHardcoded,SpUsage" />
+
+
+    <TextView
+        android:id="@+id/dialogLine2"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="@dimen/standard_margin_10"
+        android:background="@color/grey_300" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip">
+
+        <hoangvuanhdeveloper.wordpress.com.rssofflinemoneylover.CustomView.TextViewPlus
+
+            android:id="@+id/tvClose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/lineBetween"
+            android:background="@drawable/back_ground_gray_selector"
+            android:gravity="center"
+            android:text="@string/close"
+            android:textColor="@color/green_300"
+            android:textSize="@dimen/font_size_18"
+            app:customFont="fonts/Roboto-Regular.ttf"
+            tools:ignore="RtlHardcoded,SpUsage" />
+
+        <TextView
+            android:id="@+id/lineBetween"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:background="@color/grey_300" />
+
+        <hoangvuanhdeveloper.wordpress.com.rssofflinemoneylover.CustomView.TextViewPlus
+
+            android:id="@+id/tvRate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/lineBetween"
+            android:background="@drawable/back_ground_gray_selector"
+            android:gravity="center"
+            android:text="@string/rate"
+            android:textColor="@color/red_300"
+            android:textSize="@dimen/font_size_18"
+            app:customFont="fonts/Roboto-Regular.ttf"
+            tools:ignore="RtlHardcoded,SpUsage" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/grey_300" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Đọc Báo Offline</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">Cài đặt</string>
+    <string name="action_about">Thông tin</string>
+    <string name="no_data">Không có dữ liệu, buồn</string>
+    <string name="offline">Bạn đang offline, vui lòng bật kết nối nếu như muốn nhận tin mới</string>
+    <string name="error">Đã xảy ra lỗi, vui lòng thử lại sau</string>
+    <string name="loading" tools:ignore="TypographyEllipsis">Đang load dữ liệu, chờ xíu nhé...</string>
+    <string name="wait_is_happy" tools:ignore="TypographyEllipsis">Đợi chờ là hạnh phúc</string>
+    <string name="load_done">Đã tải xong, mời anh xơi</string>
+    <string name="refresh">Làm mới trang, nhớ bật kết nối đấy nhé</string>
+    <string name="read_now">Rất nhiều tin hót hòn họt mới được cập nhật. Đọc ngay!</string>
+    <string name="back_again_to_exit">Xoạc thêm phát nữa để thoát ứng dụng</string>
+    <string name="rate">Đánh giá</string>
+    <string name="close">Đóng</string>
+    <string name="thank_you_for_downloading_my_quotes">Cảm ơn bạn đã tải ứng dụng của chúng tôi!</string>
+    <string name="app_intro">Đây là ứng giúp đọc báo số một Việt Nam, với những tin tức được tổng hợp từ rất nhiều những tờ báo uy tín khác nhau, nhất định sẽ giúp bạn nhận được những tin tức mới nhất về mọi lĩnh vực của cuộc sống.</string>
+    <string name="version">Phiên bản</string>
+    <string name="developed_by_hvasoftware">Phát triển bởi HVA Software</string>
+    <string name="title_activity_read_article">ReadArticleActivity</string>
+    <string name="title_test">Nasa vừa đặt hàng 53 chiếc Nikon D5 để sử dụng trên trạm ISS và cho mục đích đào tạo, huấn luyện</string>
+    <string name="time_test">Posted:Sat, 26 Aug 2017 11:21:49 +0000</string>
+    <string name="content_test" tools:ignore="TypographyEllipsis"><![CDATA[Theo nguồn tin từ hãng Nikon cho biết thì Cơ quan Hàng không & Vũ trụ Mỹ (NASA) vừa có đơn hàng với số lượng 53 chiếc máy ảnh cao cấp Nikon D5. Đáng chú ý thì đây là các máy thương mại thông thường chứ chưa qua tuỳ biến về phần cứng và các chức năng riêng theo yêu cầu đặc biệt của NASA như thường thấy trong quá khứ. Trên thực tế thì 2 ông lớn này đã có mối quan hệ đối tác lâu dài tính đến nay gần 50 từ năm 1971 khi NASA lần đầu tiên đặt hàng máy ảnh đã qua tuỳ chỉnh của Nikon cho sứ mệnh Apollo 15. Kể từ thời điểm đó, 2 bên còn có những đợt giao dịch khác cụ thể như: đơn hàng Nikon F5 vào năm 1999, đơn hàng Nikon D2Xs vào năm 2008, đơn hàng 38 máy ảnh Nikon D4 và 64 ống kính Nikkor năm 2013, gần đây nhất là vào năm 2016 với thêm 10 chiếc Nikon D4 khác nữa. Không rõ là Nikon có chính sách giá đặc biệt nào cho khách hàng lâu năm với đơn hàng số lượng lớn này hay không nhưng họ cho biết là NASA sẽ thanh toán theo giá bán lẻ, nếu đúng vậy thì tổng giá trị...]]></string>
+    <string name="link_default">https://tinhte.vn</string>
+    <string name="action_search">Tìm kiếm</string>
+    <string name="save">Lưu trữ</string>
+    <string name="remove">Xoá</string>
+    <string name="no_article">Chưa có bài báo nào được lưu</string>
+    <string name="get_news">Nhận tin mới</string>
+    <string name="is_get_news">Bạn có muốn nhận tin tức mới liên tục hay không? Ứng dụng sẽ chạy ngầm bên dưới để lấy dữ liệu và thông báo cho bạn qua thanh thông báo, có thể tiêu tốn năng lượng nhưng chỉ một chút thôi nên cũng đừng quá lo lắng về điều này.</string>
+    <string name="yes">Đồng ý</string>
+    <string name="no">Từ chối</string>
+    <string name="no_miss_anynews">Tuyệt! Nhất định bạn sẽ không bở lỡ tin tức nào</string>
+    <string name="ar_saved">Đã lưu</string>
+    <string name="will_miss">Ôi không! Bạn sẽ bỏ lỡ nhiều thứ đấy</string>
+    <string name="read_title">Tin mới</string>
+
+
+</resources>

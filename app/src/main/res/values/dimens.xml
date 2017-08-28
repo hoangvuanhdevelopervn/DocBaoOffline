@@ -1,0 +1,50 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margintop">56dip</dimen>
+
+
+    <dimen name="font_arTitle">20dip</dimen>
+    <dimen name="font_arTimeUpload">14dip</dimen>
+    <dimen name="font_arContent">16dip</dimen>
+    <dimen name="font_toolbarTitle">20px</dimen>
+
+    <dimen name="marigin_top_with_tablayout">105dip</dimen>
+    <dimen name="size_tablayout">105dip</dimen>
+    <dimen name="standard_margin">5dip</dimen>
+    <dimen name="standard_margin_10">10dip</dimen>
+    <dimen name="favorite_icon_size">25dip</dimen>
+    <dimen name="quote_font_size">18dip</dimen>
+    <dimen name="category_font_size">14dip</dimen>
+    <dimen name="quote_time_create_font_size">10dip</dimen>
+    <dimen name="author_font_size">18dip</dimen>
+    <dimen name="standard_margin_20">20dip</dimen>
+    <dimen name="category_font_size_custom">28dip</dimen>
+    <dimen name="image_height_category_custom">200dip</dimen>
+    <dimen name="standard_margin_15">15dip</dimen>
+    <dimen name="normal_radius_view">2dip</dimen>
+    <dimen name="large_radius_view">4dip</dimen>
+    <dimen name="standard_margin_5">5dip</dimen>
+    <dimen name="standard_margin_30">30dip</dimen>
+    <dimen name="quote_font_size_large">20dip</dimen>
+    <dimen name="category_font_size_large">16dip</dimen>
+    <dimen name="font_size_normal">14dip</dimen>
+    <dimen name="image_size_share">20dip</dimen>
+    <dimen name="width_dialog_content">300dip</dimen>
+    <dimen name="height_edt_add_comment">70dip</dimen>
+    <dimen name="image_size_share_large">22dip</dimen>
+    <dimen name="image_size_share_orange">28dip</dimen>
+    <dimen name="author_font_size_read_quote">20dip</dimen>
+    <dimen name="font_size_18">18dip</dimen>
+    <dimen name="font_size_16">16dip</dimen>
+    <dimen name="image_size_share_orange_small">24dip</dimen>
+    <dimen name="dimen24">24dip</dimen>
+    <dimen name="category_font_size_custom_offline">18dip</dimen>
+    <dimen name="dimen26">26dip</dimen>
+    <dimen name="iconLoadingImageSize">24dip</dimen>
+    <dimen name="size_for_button_save">24dip</dimen>
+</resources>

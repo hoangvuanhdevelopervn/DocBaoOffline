@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dip"
+        android:background="@color/tabBarColor">
+
+        <hoangvuanhdeveloper.wordpress.com.rssofflinemoneylover.CustomView.TextViewPlus
+            android:id="@+id/tvArTittleTab"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/standard_margin_10"
+            android:layout_marginRight="@dimen/standard_margin_20"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/standard_margin_20"
+            app:customFont="fonts/Roboto-Regular.ttf"
+            tools:ignore="RtlHardcoded,SpUsage" />
+
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="@dimen/size_for_button_save"
+            android:layout_height="@dimen/size_for_button_save"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/standard_margin_10"
+            android:background="@drawable/close_selector"
+            tools:ignore="RtlHardcoded" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <hoangvuanhdeveloper.wordpress.com.rssofflinemoneylover.CustomView.TextViewPlus
+                android:id="@+id/tvArTitle"
+                customFont="fonts/Roboto-Medium.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/standard_margin_5"
+                android:layout_marginRight="@dimen/standard_margin_5"
+                android:layout_marginTop="@dimen/standard_margin_5"
+                android:gravity="center_horizontal"
+                android:text="title"
+                android:textColor="@color/arTitleColor"
+                android:textSize="@dimen/font_arTitle"
+                android:textStyle="bold" />
+
+            <hoangvuanhdeveloper.wordpress.com.rssofflinemoneylover.CustomView.TextViewPlus
+                android:id="@+id/tvArticlePubDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/standard_margin_5"
+                android:layout_marginRight="@dimen/standard_margin_5"
+                android:layout_marginTop="@dimen/standard_margin_5"
+                android:ellipsize="end"
+                android:text="@string/time_test"
+                android:textColor="@color/arTimeUpLoadColor"
+                android:textSize="@dimen/font_arTimeUpload"
+                app:customFont="fonts/Roboto-Light.ttf"
+                tools:ignore="PxUsage"
+
+                />
+
+
+            <hoangvuanhdeveloper.wordpress.com.rssofflinemoneylover.CustomView.TextViewPlus
+                android:id="@+id/tvArDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/standard_margin_5"
+                android:layout_marginRight="@dimen/standard_margin_5"
+                android:text="@string/content_test"
+                android:textColor="@color/arContentColor"
+                android:textSize="@dimen/font_arContent" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
